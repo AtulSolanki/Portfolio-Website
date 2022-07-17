@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: url(images/wood.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: #FFF;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: crimson;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: crimson;
+    transition: .4s;
+}
+.btn{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+        color: crimson;
+        border: 2px solid crimson;
+        cursor: pointer;
+        background-color: white;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4{
+    color: white;
+    margin: 10px 0px;
+    font-size: 27px;
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 75px;
+   font-weight: 600;
+    margin-left: -3px;
+    
+}
+h3{
+    color: white;
+    font-size: 40px;
+    margin: 5px 0;
+    margin-bottom: 50px;
+}
+h3 span {
+    color: crimson;
+    font-weight: 500;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid crimson;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+    line-height: 2;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    font-size: 1.5rem;
+}
+
+.skills h2{
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-row {
+    margin: 50px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+
+}
+.skill-row h4{
+    color: crimson;
+    font-size: 30px;
+}
+.skill-row p{
+    font-size: 25px;
+}
+.hacker {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 700px;
+ 
+
+}
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: crimson;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra ul{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: crimson;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 25px;
+        border-radius: 30px;
+        transition: transform .4s;
+}
+.card .button:hover{
+    background-color: white;
+        border: 2px solid crimson;
+        cursor: pointer;
+        color: crimson;
+}
+.btn1 {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 25px;
+    background-color: #66BFBF;
+    color: #11999E;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn1:hover {
+    color: white;
+    border: 2px solid ;
+    cursor: pointer;
+   
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0 30px;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
